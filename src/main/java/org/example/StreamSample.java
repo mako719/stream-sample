@@ -17,7 +17,7 @@ public class StreamSample {
     }
 
 
-    private static boolean test(String dog) {
-        return dog == "golden retroiever";
+    private static boolean isGoldenRetriever(String dog) {
+        return dog equals "golden retriever";
     }
 }
