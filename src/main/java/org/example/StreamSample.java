@@ -11,13 +11,13 @@ public class StreamSample {
         boolean hasGoldenRetriever = dogs.stream().noneMatch(StreamSample::isGoldenRetriever);
 
         System.out.println(result);
-        System.out.println(hasGoldenRetriever);
         System.out.println(upperCaseLetter);
-
+        System.out.println(hasGoldenRetriever);
+        
     }
 
 
     private static boolean isGoldenRetriever(String dog) {
-        return dog.equals ("golden retriever");
+        return dog.equals("golden retriever");
     }
 }
